@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+    <View 
+    	android:id="@+id/head"
+    	android:layout_width="fill_parent" 
+		android:layout_height="60px"/>
+   	<Gallery
+	    android:id="@+id/gallery"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:unselectedAlpha="0.4"/>
+  <!--  <View android:layout_width="fill_parent" android:layout_height="15px" />
+ 	<TextView 
+		android:id="@+id/namelist"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:textSize="18sp"
+	    android:gravity="center"
+	    android:textColor="#000000"/> -->
+	<View android:background="@drawable/gradient"
+		android:layout_width="fill_parent" 
+		android:layout_height="5px" 
+		android:layout_margin="1px"/>
+	<ListView
+		android:id="@+id/list"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:textSize="8sp"
+		android:cacheColorHint="#00000000"/>
+</LinearLayout>

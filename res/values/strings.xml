@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DOEdroid</string>
+    <string name="description">Aplicación no oficial del Diario Oficial de Extremadura</string>  
+    <string name="version">Versión: 0.3.1 Beta</string>
+
+    <string name="title_doe">Diario Oficial de Extremadura</string>
+    <string name="title_sia">Portal del Ciudadano</string>
+
+    <string name="text_btn_doe">Diario Oficial\nde Extremadura</string>
+    <string name="text_btn_sia">Portal del\nCiudadano</string>    
+    <string name="text_btn_favorite">Favoritos</string>
+	<string name="text_btn_info">Info</string>	
+       
+    <string name="text_btn_doe0">Disposiciones\nEstatales</string>
+    <string name="text_btn_doe1">Disposiciones\nGenerales</string>
+    <string name="text_btn_doe2">Autoridades\ny Personal</string>
+    <string name="text_btn_doe3">Otras\nresoluciones</string>
+    <string name="text_btn_doe4">Administración\nde Justicia</string>
+	<string name="text_btn_doe5">Anuncios</string>	
+
+    <string name="text_btn_sia0">Trámites Ciudadanía</string>
+    <string name="text_btn_sia1">Trámites Empresas</string>
+    <string name="text_btn_sia2">Trámites Entidades</string>
+    <string name="text_btn_sia3">Licitaciones</string>
+    <string name="text_btn_sia4">Empleo Público</string>	
+    
+     <string name="alert">Alerta!</string>	
+</resources>

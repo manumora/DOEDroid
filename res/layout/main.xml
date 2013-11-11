@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  android:id="@+id/MainLayout"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout  android:id="@+id/LinearlayoutHead"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="#FFFFFF"
+		android:layout_weight="4"
+		android:paddingTop="10dp">
+		<View
+			android:background="@drawable/titlebar_main"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	<TableLayout android:id="@+id/TableLayout01"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="#FFFFFF"
+		android:stretchColumns="*"
+		android:layout_weight="1"
+		android:paddingTop="20dp">	
+		<TableRow android:id="@+id/TableRow01"
+			android:layout_weight="1"
+			android:layout_width="fill_parent">
+			<LinearLayout android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" 
+	            android:gravity="center">
+				<Button android="@+id/btn0" 
+					android:onClick="buttonClick"
+					android:tag="0"
+					android:background="@drawable/main_zero"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+			</LinearLayout>
+	  		<LinearLayout android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" 
+	            android:gravity="center">
+				<Button android="@+id/btn1" 
+					android:onClick="buttonClick"
+					android:tag="1"
+					android:background="@drawable/main_one"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+			</LinearLayout>
+		</TableRow>
+		<TableRow android:id="@+id/TableRow02" 
+			android:layout_weight="2">
+			<TextView android:id="@+id/textView0" 
+				android:text="@string/text_btn_doe"
+				android:gravity="center"
+				android:layout_width="wrap_content"
+				android:textColor="#000000"/>
+			<TextView android:id="@+id/TextViewMenu1" 
+				android:text="@string/text_btn_sia"
+				android:gravity="center"
+				android:layout_width="fill_parent"
+				android:textColor="#000000"/>
+		</TableRow>
+		<TableRow android:id="@+id/TableRow03"
+			android:layout_weight="1"
+			android:layout_width="fill_parent"
+			android:paddingTop="10dp">
+			<LinearLayout android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" 
+	            android:gravity="center">
+				<Button android="@+id/btn6" 
+					android:onClick="buttonClick"
+					android:tag="2"
+					android:background="@drawable/main_two"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+			</LinearLayout>
+	  		<LinearLayout android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" 
+	            android:gravity="center">
+				<Button android="@+id/btn7" 
+					android:onClick="buttonClick"
+					android:tag="3"
+					android:background="@drawable/main_three"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+			</LinearLayout>
+		</TableRow>
+		<TableRow android:id="@+id/TableRow04" 
+			android:layout_weight="4">
+			<TextView android:id="@+id/TextViewMenu6"
+				android:text="@string/text_btn_favorite" 
+				android:gravity="center"
+				android:layout_width="wrap_content"
+				android:textColor="#000000"/>
+			<TextView android:id="@+id/TextViewMenu7"
+				android:text="@string/text_btn_info" 
+				android:gravity="center"
+				android:layout_width="fill_parent"
+				android:textColor="#000000"/>
+		</TableRow>
+	</TableLayout>
+</LinearLayout>
